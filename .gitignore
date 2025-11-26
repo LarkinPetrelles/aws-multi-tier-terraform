@@ -1,0 +1,23 @@
+# Terraform dirs
+.terraform/
+.terraform.lock.hcl
+*.exe
+
+# Terraform local state
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Plans
+plan.out
+plan*.bin
+
+# Sensitive vars
+terraform.tfvars
+*.auto.tfvars
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
